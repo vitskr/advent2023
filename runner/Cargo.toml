@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 day1a = { version = "0.1.0", path = "../day1a" }
 day1b = { version = "0.1.0", path = "../day1b" }
+day2a = { version = "0.1.0", path = "../day2a" }
