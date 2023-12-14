@@ -3,7 +3,7 @@ const NUMS: [&[u8]; 10] = [
 ];
 
 pub fn run() -> usize {
-    let bytes = include_bytes!("../input.txt");
+    let bytes = include_bytes!("../../inputs/day1.txt");
 
     bytes.split(|b| b == &b'\n').map(get).sum()
 }
